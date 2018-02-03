@@ -1,0 +1,12 @@
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\bin\Debug\Franchising.exe.config
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\bin\Debug\Franchising.exe
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\bin\Debug\Franchising.pdb
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\bin\Debug\Franchising.xml
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.vbprojResolveAssemblyReference.cache
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.Form1.resources
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.Resources.resources
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.vbproj.GenerateResource.Cache
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.exe
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.xml
+c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.pdb
