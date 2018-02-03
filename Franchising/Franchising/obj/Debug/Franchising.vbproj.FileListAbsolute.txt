@@ -10,3 +10,7 @@ c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj
 c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.exe
 c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.xml
 c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.pdb
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.exe.config
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.exe
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.xml
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.pdb
