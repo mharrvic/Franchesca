@@ -207,11 +207,13 @@ Partial Class SignUp
         '
         'BunifuMaterialTextbox1
         '
-        Me.BunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.BunifuMaterialTextbox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.BunifuMaterialTextbox1.Font = New System.Drawing.Font("Century Gothic", 9.75!)
         Me.BunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty
         Me.BunifuMaterialTextbox1.HintText = ""
+        Me.BunifuMaterialTextbox1.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.BunifuMaterialTextbox1.isPassword = False
         Me.BunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.Blue
         Me.BunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray
@@ -224,10 +226,10 @@ Partial Class SignUp
         Me.BunifuMaterialTextbox1.TabIndex = 15
         Me.BunifuMaterialTextbox1.Text = "Lastname"
         Me.BunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.BunifuMaterialTextbox1.UseWaitCursor = True
         '
         'BunifuMaterialTextbox2
         '
+        Me.BunifuMaterialTextbox2.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.BunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.BunifuMaterialTextbox2.Font = New System.Drawing.Font("Century Gothic", 9.75!)
         Me.BunifuMaterialTextbox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
@@ -357,7 +359,6 @@ Partial Class SignUp
     Friend WithEvents BunifuCustomLabel7 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuMaterialTextbox6 As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents BunifuMaterialTextbox5 As Bunifu.Framework.UI.BunifuMaterialTextbox
-    Friend WithEvents BunifuMaterialTextbox4 As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents BunifuMaterialTextbox3 As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents BunifuMaterialTextbox2 As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents BunifuMaterialTextbox1 As Bunifu.Framework.UI.BunifuMaterialTextbox
@@ -370,4 +371,5 @@ Partial Class SignUp
     Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents BunifuMaterialTextbox4 As Bunifu.Framework.UI.BunifuMaterialTextbox
 End Class
