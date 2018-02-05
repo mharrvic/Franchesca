@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Services
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,9 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Services))
         Me.BunifuGradientPanel1 = New Bunifu.Framework.UI.BunifuGradientPanel()
-        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuGradientPanel2 = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.BunifuGradientPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -32,55 +32,45 @@ Partial Class Form1
         '
         Me.BunifuGradientPanel1.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel1.BackgroundImage"), System.Drawing.Image)
         Me.BunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuThinButton21)
+        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuGradientPanel2)
         Me.BunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Lime
         Me.BunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Blue
         Me.BunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.BunifuGradientPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.BunifuGradientPanel1.Location = New System.Drawing.Point(2, 1)
         Me.BunifuGradientPanel1.Name = "BunifuGradientPanel1"
         Me.BunifuGradientPanel1.Quality = 10
         Me.BunifuGradientPanel1.Size = New System.Drawing.Size(866, 421)
         Me.BunifuGradientPanel1.TabIndex = 0
         '
-        'BunifuThinButton21
+        'BunifuGradientPanel2
         '
-        Me.BunifuThinButton21.ActiveBorderThickness = 1
-        Me.BunifuThinButton21.ActiveCornerRadius = 20
-        Me.BunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.ActiveForecolor = System.Drawing.Color.White
-        Me.BunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.BackColor = System.Drawing.SystemColors.Control
-        Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton21.ButtonText = "ThinButton"
-        Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton21.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.IdleBorderThickness = 1
-        Me.BunifuThinButton21.IdleCornerRadius = 20
-        Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.White
-        Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.Location = New System.Drawing.Point(330, 166)
-        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(5)
-        Me.BunifuThinButton21.Name = "BunifuThinButton21"
-        Me.BunifuThinButton21.Size = New System.Drawing.Size(181, 70)
-        Me.BunifuThinButton21.TabIndex = 0
-        Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuGradientPanel2.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuGradientPanel2.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel2.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.White
+        Me.BunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.White
+        Me.BunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.White
+        Me.BunifuGradientPanel2.GradientTopRight = System.Drawing.Color.White
+        Me.BunifuGradientPanel2.Location = New System.Drawing.Point(3, 3)
+        Me.BunifuGradientPanel2.Name = "BunifuGradientPanel2"
+        Me.BunifuGradientPanel2.Quality = 10
+        Me.BunifuGradientPanel2.Size = New System.Drawing.Size(81, 75)
+        Me.BunifuGradientPanel2.TabIndex = 0
         '
-        'Form1
+        'Services
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(864, 421)
         Me.Controls.Add(Me.BunifuGradientPanel1)
-        Me.Name = "Form1"
-        Me.Text = "Franchise System"
+        Me.Name = "Services"
+        Me.Text = "Services"
         Me.BunifuGradientPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents BunifuGradientPanel1 As Bunifu.Framework.UI.BunifuGradientPanel
-    Friend WithEvents BunifuThinButton21 As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents BunifuGradientPanel2 As Bunifu.Framework.UI.BunifuGradientPanel
 End Class

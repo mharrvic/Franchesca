@@ -24,6 +24,9 @@ Partial Class SignUp
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SignUp))
         Me.BunifuGradientPanel1 = New Bunifu.Framework.UI.BunifuGradientPanel()
+        Me.BunifuCustomLabel10 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel9 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel8 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuCustomLabel7 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuMaterialTextbox6 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
@@ -40,9 +43,6 @@ Partial Class SignUp
         Me.BunifuCustomLabel2 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuCustomLabel8 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel9 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel10 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuGradientPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -79,6 +79,42 @@ Partial Class SignUp
         Me.BunifuGradientPanel1.Quality = 10
         Me.BunifuGradientPanel1.Size = New System.Drawing.Size(864, 420)
         Me.BunifuGradientPanel1.TabIndex = 0
+        '
+        'BunifuCustomLabel10
+        '
+        Me.BunifuCustomLabel10.AutoSize = True
+        Me.BunifuCustomLabel10.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCustomLabel10.Location = New System.Drawing.Point(684, 55)
+        Me.BunifuCustomLabel10.Name = "BunifuCustomLabel10"
+        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(67, 16)
+        Me.BunifuCustomLabel10.TabIndex = 26
+        Me.BunifuCustomLabel10.Text = "Firstname"
+        '
+        'BunifuCustomLabel9
+        '
+        Me.BunifuCustomLabel9.AutoSize = True
+        Me.BunifuCustomLabel9.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCustomLabel9.Location = New System.Drawing.Point(546, 56)
+        Me.BunifuCustomLabel9.Name = "BunifuCustomLabel9"
+        Me.BunifuCustomLabel9.Size = New System.Drawing.Size(67, 16)
+        Me.BunifuCustomLabel9.TabIndex = 25
+        Me.BunifuCustomLabel9.Text = "Lastname"
+        '
+        'BunifuCustomLabel8
+        '
+        Me.BunifuCustomLabel8.AutoSize = True
+        Me.BunifuCustomLabel8.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCustomLabel8.Location = New System.Drawing.Point(510, 374)
+        Me.BunifuCustomLabel8.Name = "BunifuCustomLabel8"
+        Me.BunifuCustomLabel8.Size = New System.Drawing.Size(280, 16)
+        Me.BunifuCustomLabel8.TabIndex = 24
+        Me.BunifuCustomLabel8.Text = "© Uno Franchising System. All rights reserved."
         '
         'PictureBox1
         '
@@ -342,42 +378,6 @@ Partial Class SignUp
         Me.BunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuFlatButton1.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton1.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        '
-        'BunifuCustomLabel8
-        '
-        Me.BunifuCustomLabel8.AutoSize = True
-        Me.BunifuCustomLabel8.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuCustomLabel8.Location = New System.Drawing.Point(510, 374)
-        Me.BunifuCustomLabel8.Name = "BunifuCustomLabel8"
-        Me.BunifuCustomLabel8.Size = New System.Drawing.Size(280, 16)
-        Me.BunifuCustomLabel8.TabIndex = 24
-        Me.BunifuCustomLabel8.Text = "© Uno Franchising System. All rights reserved."
-        '
-        'BunifuCustomLabel9
-        '
-        Me.BunifuCustomLabel9.AutoSize = True
-        Me.BunifuCustomLabel9.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuCustomLabel9.Location = New System.Drawing.Point(546, 56)
-        Me.BunifuCustomLabel9.Name = "BunifuCustomLabel9"
-        Me.BunifuCustomLabel9.Size = New System.Drawing.Size(67, 16)
-        Me.BunifuCustomLabel9.TabIndex = 25
-        Me.BunifuCustomLabel9.Text = "Lastname"
-        '
-        'BunifuCustomLabel10
-        '
-        Me.BunifuCustomLabel10.AutoSize = True
-        Me.BunifuCustomLabel10.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuCustomLabel10.Location = New System.Drawing.Point(684, 55)
-        Me.BunifuCustomLabel10.Name = "BunifuCustomLabel10"
-        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(67, 16)
-        Me.BunifuCustomLabel10.TabIndex = 26
-        Me.BunifuCustomLabel10.Text = "Firstname"
         '
         'SignUp
         '

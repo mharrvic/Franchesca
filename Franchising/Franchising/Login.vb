@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Login
     Private Sub BunifuTileButton1_Click(sender As Object, e As EventArgs)
 
     End Sub
