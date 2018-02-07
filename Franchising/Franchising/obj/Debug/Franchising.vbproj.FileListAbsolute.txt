@@ -14,3 +14,12 @@ C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.
 C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.exe
 C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.xml
 C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.pdb
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.exe
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.pdb
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.xml
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.vbprojResolveAssemblyReference.cache
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Form1.resources
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Form3.resources
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Form4.resources
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Resources.resources
+C:\Users\VILLA\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.vbproj.GenerateResource.Cache
