@@ -22,3 +22,5 @@ C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Resources.resources
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.SignUp.resources
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.vbproj.GenerateResource.Cache
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Login.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Services.resources

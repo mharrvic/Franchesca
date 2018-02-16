@@ -24,17 +24,17 @@ Partial Class SignUp
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SignUp))
         Me.BunifuGradientPanel1 = New Bunifu.Framework.UI.BunifuGradientPanel()
+        Me.txtCpass = New Bunifu.Framework.UI.BunifuMetroTextbox()
+        Me.txtPass = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.BunifuCustomLabel10 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel9 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel8 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuCustomLabel7 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuMaterialTextbox6 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.BunifuMaterialTextbox5 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.BunifuMaterialTextbox4 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.BunifuMaterialTextbox3 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.BunifuMaterialTextbox2 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.BunifuMaterialTextbox1 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.txtEmail = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.txtUser = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.txtFirstname = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.txtLastname = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.BunifuCheckbox1 = New Bunifu.Framework.UI.BunifuCheckbox()
         Me.BunifuCustomLabel6 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel5 = New Bunifu.Framework.UI.BunifuCustomLabel()
@@ -51,17 +51,17 @@ Partial Class SignUp
         '
         Me.BunifuGradientPanel1.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel1.BackgroundImage"), System.Drawing.Image)
         Me.BunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuGradientPanel1.Controls.Add(Me.txtCpass)
+        Me.BunifuGradientPanel1.Controls.Add(Me.txtPass)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel10)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel9)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel8)
         Me.BunifuGradientPanel1.Controls.Add(Me.PictureBox1)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel7)
-        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuMaterialTextbox6)
-        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuMaterialTextbox5)
-        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuMaterialTextbox4)
-        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuMaterialTextbox3)
-        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuMaterialTextbox2)
-        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuMaterialTextbox1)
+        Me.BunifuGradientPanel1.Controls.Add(Me.txtEmail)
+        Me.BunifuGradientPanel1.Controls.Add(Me.txtUser)
+        Me.BunifuGradientPanel1.Controls.Add(Me.txtFirstname)
+        Me.BunifuGradientPanel1.Controls.Add(Me.txtLastname)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCheckbox1)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel6)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel5)
@@ -79,6 +79,40 @@ Partial Class SignUp
         Me.BunifuGradientPanel1.Quality = 10
         Me.BunifuGradientPanel1.Size = New System.Drawing.Size(864, 420)
         Me.BunifuGradientPanel1.TabIndex = 0
+        '
+        'txtCpass
+        '
+        Me.txtCpass.BorderColorFocused = System.Drawing.Color.Blue
+        Me.txtCpass.BorderColorIdle = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtCpass.BorderColorMouseHover = System.Drawing.Color.Blue
+        Me.txtCpass.BorderThickness = 3
+        Me.txtCpass.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtCpass.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtCpass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtCpass.isPassword = True
+        Me.txtCpass.Location = New System.Drawing.Point(549, 198)
+        Me.txtCpass.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtCpass.Name = "txtCpass"
+        Me.txtCpass.Size = New System.Drawing.Size(268, 32)
+        Me.txtCpass.TabIndex = 28
+        Me.txtCpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
+        'txtPass
+        '
+        Me.txtPass.BorderColorFocused = System.Drawing.Color.Blue
+        Me.txtPass.BorderColorIdle = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtPass.BorderColorMouseHover = System.Drawing.Color.Blue
+        Me.txtPass.BorderThickness = 3
+        Me.txtPass.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPass.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtPass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtPass.isPassword = True
+        Me.txtPass.Location = New System.Drawing.Point(549, 158)
+        Me.txtPass.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtPass.Name = "txtPass"
+        Me.txtPass.Size = New System.Drawing.Size(268, 32)
+        Me.txtPass.TabIndex = 27
+        Me.txtPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'BunifuCustomLabel10
         '
@@ -121,9 +155,9 @@ Partial Class SignUp
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(117, 36)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(420, 420)
+        Me.PictureBox1.Size = New System.Drawing.Size(298, 154)
         Me.PictureBox1.TabIndex = 23
         Me.PictureBox1.TabStop = False
         '
@@ -139,126 +173,86 @@ Partial Class SignUp
         Me.BunifuCustomLabel7.TabIndex = 22
         Me.BunifuCustomLabel7.Text = "SIGN UP FOR FREE"
         '
-        'BunifuMaterialTextbox6
+        'txtEmail
         '
-        Me.BunifuMaterialTextbox6.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BunifuMaterialTextbox6.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox6.Font = New System.Drawing.Font("Century Gothic", 9.75!)
-        Me.BunifuMaterialTextbox6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuMaterialTextbox6.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox6.HintText = ""
-        Me.BunifuMaterialTextbox6.isPassword = False
-        Me.BunifuMaterialTextbox6.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox6.LineIdleColor = System.Drawing.Color.Gray
-        Me.BunifuMaterialTextbox6.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox6.LineThickness = 3
-        Me.BunifuMaterialTextbox6.Location = New System.Drawing.Point(549, 239)
-        Me.BunifuMaterialTextbox6.Margin = New System.Windows.Forms.Padding(4)
-        Me.BunifuMaterialTextbox6.Name = "BunifuMaterialTextbox6"
-        Me.BunifuMaterialTextbox6.Size = New System.Drawing.Size(268, 33)
-        Me.BunifuMaterialTextbox6.TabIndex = 20
-        Me.BunifuMaterialTextbox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txtEmail.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtEmail.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtEmail.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtEmail.HintForeColor = System.Drawing.Color.Empty
+        Me.txtEmail.HintText = ""
+        Me.txtEmail.isPassword = False
+        Me.txtEmail.LineFocusedColor = System.Drawing.Color.Blue
+        Me.txtEmail.LineIdleColor = System.Drawing.Color.Gray
+        Me.txtEmail.LineMouseHoverColor = System.Drawing.Color.Blue
+        Me.txtEmail.LineThickness = 3
+        Me.txtEmail.Location = New System.Drawing.Point(549, 239)
+        Me.txtEmail.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(268, 33)
+        Me.txtEmail.TabIndex = 20
+        Me.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'BunifuMaterialTextbox5
+        'txtUser
         '
-        Me.BunifuMaterialTextbox5.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BunifuMaterialTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox5.Font = New System.Drawing.Font("Century Gothic", 9.75!)
-        Me.BunifuMaterialTextbox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuMaterialTextbox5.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox5.HintText = ""
-        Me.BunifuMaterialTextbox5.isPassword = True
-        Me.BunifuMaterialTextbox5.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox5.LineIdleColor = System.Drawing.Color.Gray
-        Me.BunifuMaterialTextbox5.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox5.LineThickness = 3
-        Me.BunifuMaterialTextbox5.Location = New System.Drawing.Point(549, 198)
-        Me.BunifuMaterialTextbox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.BunifuMaterialTextbox5.Name = "BunifuMaterialTextbox5"
-        Me.BunifuMaterialTextbox5.Size = New System.Drawing.Size(268, 33)
-        Me.BunifuMaterialTextbox5.TabIndex = 19
-        Me.BunifuMaterialTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txtUser.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtUser.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtUser.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtUser.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtUser.HintForeColor = System.Drawing.Color.Empty
+        Me.txtUser.HintText = ""
+        Me.txtUser.isPassword = False
+        Me.txtUser.LineFocusedColor = System.Drawing.Color.Blue
+        Me.txtUser.LineIdleColor = System.Drawing.Color.Gray
+        Me.txtUser.LineMouseHoverColor = System.Drawing.Color.Blue
+        Me.txtUser.LineThickness = 3
+        Me.txtUser.Location = New System.Drawing.Point(549, 116)
+        Me.txtUser.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtUser.Name = "txtUser"
+        Me.txtUser.Size = New System.Drawing.Size(268, 33)
+        Me.txtUser.TabIndex = 17
+        Me.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'BunifuMaterialTextbox4
+        'txtFirstname
         '
-        Me.BunifuMaterialTextbox4.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BunifuMaterialTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox4.Font = New System.Drawing.Font("Century Gothic", 9.75!)
-        Me.BunifuMaterialTextbox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuMaterialTextbox4.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox4.HintText = ""
-        Me.BunifuMaterialTextbox4.isPassword = True
-        Me.BunifuMaterialTextbox4.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox4.LineIdleColor = System.Drawing.Color.Gray
-        Me.BunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox4.LineThickness = 3
-        Me.BunifuMaterialTextbox4.Location = New System.Drawing.Point(549, 157)
-        Me.BunifuMaterialTextbox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.BunifuMaterialTextbox4.Name = "BunifuMaterialTextbox4"
-        Me.BunifuMaterialTextbox4.Size = New System.Drawing.Size(268, 33)
-        Me.BunifuMaterialTextbox4.TabIndex = 18
-        Me.BunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txtFirstname.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtFirstname.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtFirstname.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtFirstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtFirstname.HintForeColor = System.Drawing.Color.Empty
+        Me.txtFirstname.HintText = ""
+        Me.txtFirstname.isPassword = False
+        Me.txtFirstname.LineFocusedColor = System.Drawing.Color.Blue
+        Me.txtFirstname.LineIdleColor = System.Drawing.Color.Gray
+        Me.txtFirstname.LineMouseHoverColor = System.Drawing.Color.Blue
+        Me.txtFirstname.LineThickness = 3
+        Me.txtFirstname.Location = New System.Drawing.Point(687, 75)
+        Me.txtFirstname.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtFirstname.Name = "txtFirstname"
+        Me.txtFirstname.Size = New System.Drawing.Size(130, 33)
+        Me.txtFirstname.TabIndex = 16
+        Me.txtFirstname.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'BunifuMaterialTextbox3
+        'txtLastname
         '
-        Me.BunifuMaterialTextbox3.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BunifuMaterialTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox3.Font = New System.Drawing.Font("Century Gothic", 9.75!)
-        Me.BunifuMaterialTextbox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuMaterialTextbox3.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox3.HintText = ""
-        Me.BunifuMaterialTextbox3.isPassword = False
-        Me.BunifuMaterialTextbox3.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.Gray
-        Me.BunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox3.LineThickness = 3
-        Me.BunifuMaterialTextbox3.Location = New System.Drawing.Point(549, 116)
-        Me.BunifuMaterialTextbox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.BunifuMaterialTextbox3.Name = "BunifuMaterialTextbox3"
-        Me.BunifuMaterialTextbox3.Size = New System.Drawing.Size(268, 33)
-        Me.BunifuMaterialTextbox3.TabIndex = 17
-        Me.BunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'BunifuMaterialTextbox2
-        '
-        Me.BunifuMaterialTextbox2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox2.Font = New System.Drawing.Font("Century Gothic", 9.75!)
-        Me.BunifuMaterialTextbox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox2.HintText = ""
-        Me.BunifuMaterialTextbox2.isPassword = False
-        Me.BunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray
-        Me.BunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox2.LineThickness = 3
-        Me.BunifuMaterialTextbox2.Location = New System.Drawing.Point(687, 75)
-        Me.BunifuMaterialTextbox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.BunifuMaterialTextbox2.Name = "BunifuMaterialTextbox2"
-        Me.BunifuMaterialTextbox2.Size = New System.Drawing.Size(130, 33)
-        Me.BunifuMaterialTextbox2.TabIndex = 16
-        Me.BunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'BunifuMaterialTextbox1
-        '
-        Me.BunifuMaterialTextbox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox1.Font = New System.Drawing.Font("Century Gothic", 9.75!)
-        Me.BunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox1.HintText = ""
-        Me.BunifuMaterialTextbox1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.BunifuMaterialTextbox1.isPassword = False
-        Me.BunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray
-        Me.BunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox1.LineThickness = 3
-        Me.BunifuMaterialTextbox1.Location = New System.Drawing.Point(549, 75)
-        Me.BunifuMaterialTextbox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.BunifuMaterialTextbox1.Name = "BunifuMaterialTextbox1"
-        Me.BunifuMaterialTextbox1.Size = New System.Drawing.Size(130, 33)
-        Me.BunifuMaterialTextbox1.TabIndex = 15
-        Me.BunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txtLastname.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtLastname.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtLastname.Font = New System.Drawing.Font("Century Gothic", 9.75!)
+        Me.txtLastname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtLastname.HintForeColor = System.Drawing.Color.Empty
+        Me.txtLastname.HintText = ""
+        Me.txtLastname.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.txtLastname.isPassword = False
+        Me.txtLastname.LineFocusedColor = System.Drawing.Color.Blue
+        Me.txtLastname.LineIdleColor = System.Drawing.Color.Gray
+        Me.txtLastname.LineMouseHoverColor = System.Drawing.Color.Blue
+        Me.txtLastname.LineThickness = 3
+        Me.txtLastname.Location = New System.Drawing.Point(549, 75)
+        Me.txtLastname.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtLastname.Name = "txtLastname"
+        Me.txtLastname.Size = New System.Drawing.Size(130, 33)
+        Me.txtLastname.TabIndex = 15
+        Me.txtLastname.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'BunifuCheckbox1
         '
@@ -396,11 +390,10 @@ Partial Class SignUp
 
     Friend WithEvents BunifuGradientPanel1 As Bunifu.Framework.UI.BunifuGradientPanel
     Friend WithEvents BunifuCustomLabel7 As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents BunifuMaterialTextbox6 As Bunifu.Framework.UI.BunifuMaterialTextbox
-    Friend WithEvents BunifuMaterialTextbox5 As Bunifu.Framework.UI.BunifuMaterialTextbox
-    Friend WithEvents BunifuMaterialTextbox3 As Bunifu.Framework.UI.BunifuMaterialTextbox
-    Friend WithEvents BunifuMaterialTextbox2 As Bunifu.Framework.UI.BunifuMaterialTextbox
-    Friend WithEvents BunifuMaterialTextbox1 As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Friend WithEvents txtEmail As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Friend WithEvents txtUser As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Friend WithEvents txtFirstname As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Friend WithEvents txtLastname As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents BunifuCheckbox1 As Bunifu.Framework.UI.BunifuCheckbox
     Friend WithEvents BunifuCustomLabel6 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel5 As Bunifu.Framework.UI.BunifuCustomLabel
@@ -410,8 +403,9 @@ Partial Class SignUp
     Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents BunifuMaterialTextbox4 As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents BunifuCustomLabel10 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel9 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel8 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents txtCpass As Bunifu.Framework.UI.BunifuMetroTextbox
+    Friend WithEvents txtPass As Bunifu.Framework.UI.BunifuMetroTextbox
 End Class
