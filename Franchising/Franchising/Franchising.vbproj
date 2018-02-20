@@ -76,6 +76,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="boykanin.Designer.vb">
+      <DependentUpon>boykanin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="boykanin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chicboy.Designer.vb">
+      <DependentUpon>chicboy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chicboy.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="forgotpassword.Designer.vb">
       <DependentUpon>forgotpassword.vb</DependentUpon>
     </Compile>
@@ -85,6 +97,12 @@
     <Compile Include="Login.vb" />
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mastersiomai.Designer.vb">
+      <DependentUpon>mastersiomai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mastersiomai.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -112,6 +130,18 @@
       <DependentUpon>SignUp.vb</DependentUpon>
     </Compile>
     <Compile Include="SignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tahoboy.Designer.vb">
+      <DependentUpon>tahoboy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tahoboy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takoyaki.Designer.vb">
+      <DependentUpon>takoyaki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="takoyaki.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
