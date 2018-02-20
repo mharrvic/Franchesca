@@ -18,9 +18,14 @@ C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.pdb
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.xml
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.vbprojResolveAssemblyReference.cache
-C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Form1.resources
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Resources.resources
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.SignUp.resources
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.vbproj.GenerateResource.Cache
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Login.resources
 C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Services.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.boykanin.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.chicboy.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Forgot.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.mastersiomai.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.tahoboy.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.takoyaki.resources

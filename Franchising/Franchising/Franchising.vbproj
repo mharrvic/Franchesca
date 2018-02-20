@@ -146,11 +146,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="boykanin.resx">
+      <DependentUpon>boykanin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chicboy.resx">
+      <DependentUpon>chicboy.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forgotpassword.resx">
       <DependentUpon>forgotpassword.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mastersiomai.resx">
+      <DependentUpon>mastersiomai.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -163,6 +172,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tahoboy.resx">
+      <DependentUpon>tahoboy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takoyaki.resx">
+      <DependentUpon>takoyaki.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
