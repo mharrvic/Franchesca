@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class mastersiomai
+Partial Class bibingkinitan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class mastersiomai
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mastersiomai))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(bibingkinitan))
         Me.BunifuGradientPanel1 = New Bunifu.Framework.UI.BunifuGradientPanel()
         Me.BunifuCustomLabel5 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel4 = New Bunifu.Framework.UI.BunifuCustomLabel()
@@ -100,15 +100,13 @@ Partial Class mastersiomai
         '
         Me.BunifuCustomLabel2.AutoSize = True
         Me.BunifuCustomLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel2.Font = New System.Drawing.Font("Lucida Bright", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel2.Font = New System.Drawing.Font("Lucida Bright", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuCustomLabel2.Location = New System.Drawing.Point(176, 49)
+        Me.BunifuCustomLabel2.Location = New System.Drawing.Point(173, 46)
         Me.BunifuCustomLabel2.Name = "BunifuCustomLabel2"
-        Me.BunifuCustomLabel2.Size = New System.Drawing.Size(548, 51)
+        Me.BunifuCustomLabel2.Size = New System.Drawing.Size(604, 45)
         Me.BunifuCustomLabel2.TabIndex = 7
-        Me.BunifuCustomLabel2.Text = "Master Siomai was established in 2007 and currently has 700 outlets " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "and countin" &
-    "g to date. It offers siomai, one of the most popular Chinese " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "snack products kn" &
-    "own to Pinoys."
+        Me.BunifuCustomLabel2.Text = resources.GetString("BunifuCustomLabel2.Text")
         '
         'BunifuCustomLabel1
         '
@@ -237,14 +235,14 @@ Partial Class mastersiomai
         Me.BunifuFlatButton1.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton1.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
-        'mastersiomai
+        'bibingkinitan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(864, 421)
         Me.Controls.Add(Me.BunifuGradientPanel1)
-        Me.Name = "mastersiomai"
-        Me.Text = "mastersiomai"
+        Me.Name = "bibingkinitan"
+        Me.Text = "bibingkinitan"
         Me.BunifuGradientPanel1.ResumeLayout(False)
         Me.BunifuGradientPanel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
