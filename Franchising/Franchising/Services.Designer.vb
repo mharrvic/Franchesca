@@ -30,6 +30,8 @@ Partial Class Services
         Me.BunifuFlatButton3 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton4 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton5 = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel2 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuGradientPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -38,6 +40,8 @@ Partial Class Services
         '
         Me.BunifuGradientPanel1.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel1.BackgroundImage"), System.Drawing.Image)
         Me.BunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel2)
+        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel1)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuFlatButton5)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuFlatButton4)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuFlatButton3)
@@ -189,7 +193,7 @@ Partial Class Services
         Me.BunifuFlatButton4.IconVisible = True
         Me.BunifuFlatButton4.IconZoom = 90.0R
         Me.BunifuFlatButton4.IsTab = False
-        Me.BunifuFlatButton4.Location = New System.Drawing.Point(476, 252)
+        Me.BunifuFlatButton4.Location = New System.Drawing.Point(456, 252)
         Me.BunifuFlatButton4.Name = "BunifuFlatButton4"
         Me.BunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
         Me.BunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(77, Byte), Integer))
@@ -235,6 +239,30 @@ Partial Class Services
         Me.BunifuFlatButton5.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton5.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
+        'BunifuCustomLabel1
+        '
+        Me.BunifuCustomLabel1.AutoSize = True
+        Me.BunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel1.Font = New System.Drawing.Font("Lucida Handwriting", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCustomLabel1.Location = New System.Drawing.Point(183, 8)
+        Me.BunifuCustomLabel1.Name = "BunifuCustomLabel1"
+        Me.BunifuCustomLabel1.Size = New System.Drawing.Size(422, 31)
+        Me.BunifuCustomLabel1.TabIndex = 7
+        Me.BunifuCustomLabel1.Text = "CHOOSE ONE(1) FRANCHISE:"
+        '
+        'BunifuCustomLabel2
+        '
+        Me.BunifuCustomLabel2.AutoSize = True
+        Me.BunifuCustomLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel2.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCustomLabel2.Location = New System.Drawing.Point(186, 48)
+        Me.BunifuCustomLabel2.Name = "BunifuCustomLabel2"
+        Me.BunifuCustomLabel2.Size = New System.Drawing.Size(412, 20)
+        Me.BunifuCustomLabel2.TabIndex = 8
+        Me.BunifuCustomLabel2.Text = "Here are some popular franchise business in market."
+        '
         'Services
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -244,6 +272,7 @@ Partial Class Services
         Me.Name = "Services"
         Me.Text = "Services"
         Me.BunifuGradientPanel1.ResumeLayout(False)
+        Me.BunifuGradientPanel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -256,4 +285,6 @@ Partial Class Services
     Friend WithEvents BunifuFlatButton4 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents BunifuFlatButton3 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents BunifuFlatButton2 As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents BunifuCustomLabel2 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
 End Class
