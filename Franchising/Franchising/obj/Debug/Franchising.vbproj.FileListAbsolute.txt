@@ -10,3 +10,17 @@ c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj
 c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.exe
 c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.xml
 c:\users\macmi\documents\visual studio 2017\Projects\Franchising\Franchising\obj\Debug\Franchising.pdb
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.exe.config
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.exe
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.xml
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.pdb
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.exe
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.pdb
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\bin\Debug\Franchising.xml
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.vbprojResolveAssemblyReference.cache
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Form1.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Resources.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.SignUp.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.vbproj.GenerateResource.Cache
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Login.resources
+C:\Users\Torres\Desktop\Franchesca\Franchising\Franchising\obj\Debug\Franchising.Services.resources
