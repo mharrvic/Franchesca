@@ -29,6 +29,7 @@ Partial Class TKkiosk
         Me.BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel3 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuGradientPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -37,6 +38,7 @@ Partial Class TKkiosk
         '
         Me.BunifuGradientPanel1.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel1.BackgroundImage"), System.Drawing.Image)
         Me.BunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel3)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel1)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel4)
         Me.BunifuGradientPanel1.Controls.Add(Me.BunifuCustomLabel2)
@@ -133,6 +135,18 @@ Partial Class TKkiosk
         Me.BunifuCustomLabel1.TabIndex = 12
         Me.BunifuCustomLabel1.Text = "PACKAGE DETAIL:"
         '
+        'BunifuCustomLabel3
+        '
+        Me.BunifuCustomLabel3.AutoSize = True
+        Me.BunifuCustomLabel3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel3.Font = New System.Drawing.Font("Lucida Bright", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BunifuCustomLabel3.Location = New System.Drawing.Point(303, 113)
+        Me.BunifuCustomLabel3.Name = "BunifuCustomLabel3"
+        Me.BunifuCustomLabel3.Size = New System.Drawing.Size(373, 255)
+        Me.BunifuCustomLabel3.TabIndex = 13
+        Me.BunifuCustomLabel3.Text = resources.GetString("BunifuCustomLabel3.Text")
+        '
         'TKkiosk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -154,4 +168,5 @@ Partial Class TKkiosk
     Friend WithEvents BunifuFlatButton2 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel3 As Bunifu.Framework.UI.BunifuCustomLabel
 End Class
