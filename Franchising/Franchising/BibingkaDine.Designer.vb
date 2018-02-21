@@ -60,11 +60,11 @@ Partial Class BibingkaDine
         Me.BunifuCustomLabel3.BackColor = System.Drawing.Color.Transparent
         Me.BunifuCustomLabel3.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuCustomLabel3.Location = New System.Drawing.Point(161, 377)
+        Me.BunifuCustomLabel3.Location = New System.Drawing.Point(154, 377)
         Me.BunifuCustomLabel3.Name = "BunifuCustomLabel3"
-        Me.BunifuCustomLabel3.Size = New System.Drawing.Size(63, 22)
+        Me.BunifuCustomLabel3.Size = New System.Drawing.Size(81, 22)
         Me.BunifuCustomLabel3.TabIndex = 8
-        Me.BunifuCustomLabel3.Text = "CART"
+        Me.BunifuCustomLabel3.Text = "DINE-IN"
         '
         'BunifuCustomLabel2
         '
